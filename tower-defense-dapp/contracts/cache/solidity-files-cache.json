@@ -1,0 +1,78 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\PE-10Note\\Downloads\\tower-defense-dapp\\tower-defense-dapp\\contracts\\contracts\\ERC20RewardToken.sol": {
+      "lastModificationDate": 1753709685093,
+      "contentHash": "f76c164b58e3a0cf8088d76d68db1fe6",
+      "sourceName": "contracts/ERC20RewardToken.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC20RewardToken"
+      ]
+    },
+    "C:\\Users\\PE-10Note\\Downloads\\tower-defense-dapp\\tower-defense-dapp\\contracts\\contracts\\TowerDefense.sol": {
+      "lastModificationDate": 1753715614395,
+      "contentHash": "b86f8be1c8c0cab6a067b0658497092b",
+      "sourceName": "contracts/TowerDefense.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IRewardToken",
+        "TowerDefense"
+      ]
+    }
+  }
+}

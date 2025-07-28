@@ -1,0 +1,33 @@
+# Node
+node_modules/
+
+
+# Hardhat artifacts and cache
+artifacts/
+cache/
+deployments/
+
+# Python
+__pycache__/
+*.pyc
+
+# Vite/React
+frontend/dist/
+frontend/.vite/
+
+# Environment
+.env
+.env.*
+
+# SQLite DB
+backend/app/db.sqlite3
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

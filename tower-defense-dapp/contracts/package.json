@@ -1,0 +1,21 @@
+{
+  "name": "tower-defense-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:goerli": "hardhat run scripts/deploy.js --network goerli",
+    "export-abi": "node scripts/exportABI.js"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.9",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "ethers": "^5.7.2",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0"
+  }
+}
